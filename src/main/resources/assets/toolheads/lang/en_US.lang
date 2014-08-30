@@ -1,0 +1,25 @@
+item.toolHead.headAxeDiamond.name=Diamond Axe Head
+item.toolHead.headAxeGold.name=Golden Axe Head
+item.toolHead.headAxeIron.name=Iron Axe Head
+item.toolHead.headAxeStone.name=Stone Axe Head
+item.toolHead.headAxeWood.name=Wood Axe Head
+
+item.toolHead.headHoeDiamond.name=Diamond Hoe Head
+item.toolHead.headHoeGold.name=Golden Hoe Head
+item.toolHead.headHoeIron.name=Iron Hoe Head
+item.toolHead.headHoeStone.name=Stone Hoe Head
+item.toolHead.headHoeWood.name=Wood Hoe Head
+
+item.toolHead.headPickaxeDiamond.name=Diamond Pickaxe Head
+item.toolHead.headPickaxeGold.name=Golden Pickaxe Head
+item.toolHead.headPickaxeIron.name=Iron Pickaxe Head
+item.toolHead.headPickaxeStone.name=Stone Pickaxe Head
+item.toolHead.headPickaxeWood.name=Wood Pickaxe Head
+
+item.toolHead.headShovelDiamond.name=Diamond Shovel Head
+item.toolHead.headShovelGold.name=Golden Shovel Head
+item.toolHead.headShovelIron.name=Iron Shovel Head
+item.toolHead.headShovelStone.name=Stone Shovel Head
+item.toolHead.headShovelWood.name=Wood Shovel Head
+
+itemGroup.toolHeads=Tool Heads
