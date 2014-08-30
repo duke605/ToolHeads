@@ -1,13 +1,14 @@
 package duke605.ms.toolheads.api;
 
-import duke605.ms.toolheads.api.heads.Head;
-import duke605.ms.toolheads.api.heads.Head.ToolType;
+import duke605.ms.toolheads.api.head.Head;
+import duke605.ms.toolheads.api.head.Head.ToolType;
 
 import java.util.HashMap;
 
 public class ToolHeadAPI {
 
     private HashMap<ToolType, HashMap<String, Head>> heads;
+    
     public static final ToolHeadAPI INSTANCE = new ToolHeadAPI();
 
     private ToolHeadAPI() {

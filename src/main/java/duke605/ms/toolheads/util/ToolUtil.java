@@ -1,6 +1,6 @@
 package duke605.ms.toolheads.util;
 
-import duke605.ms.toolheads.api.heads.Head.ToolType;
+import duke605.ms.toolheads.api.head.Head.ToolType;
 import net.minecraft.item.*;
 
 public class ToolUtil {

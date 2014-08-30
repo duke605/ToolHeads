@@ -27,7 +27,8 @@ public class ItemHead extends Item {
         setMaxStackSize(1);
     }
 
-    public void getSubItems(Item item, CreativeTabs tab, List l) {
+    @SuppressWarnings({ "unchecked", "rawtypes" })
+	public void getSubItems(Item item, CreativeTabs tab, List l) {
         for (int i = 0;i < names.length;i++)
             l.add(new ItemStack(item, 1, i));
     }

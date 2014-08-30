@@ -2,15 +2,13 @@ package duke605.ms.toolheads.handler;
 
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import duke605.ms.toolheads.api.ToolHeadAPI;
-import duke605.ms.toolheads.api.heads.Head;
-import duke605.ms.toolheads.api.heads.Head.ToolType;
+import duke605.ms.toolheads.api.head.Head;
+import duke605.ms.toolheads.api.head.Head.ToolType;
 import duke605.ms.toolheads.util.ToolUtil;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.item.ItemTool;
 import net.minecraft.util.ChatComponentText;
-import net.minecraftforge.event.entity.living.LivingAttackEvent;
 import net.minecraftforge.event.entity.player.PlayerDestroyItemEvent;
 
 public class EventManager {

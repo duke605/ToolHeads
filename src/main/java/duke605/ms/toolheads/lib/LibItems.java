@@ -1,20 +1,19 @@
 package duke605.ms.toolheads.lib;
 
-import cpw.mods.fml.common.registry.GameRegistry;
-import duke605.ms.toolheads.ToolHeads;
-import duke605.ms.toolheads.api.ToolHeadAPI;
-import duke605.ms.toolheads.api.heads.Head;
-import duke605.ms.toolheads.handler.ConfigurationHandler;
-import duke605.ms.toolheads.item.ItemHead;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemTool;
+import cpw.mods.fml.common.registry.GameRegistry;
+import duke605.ms.toolheads.ToolHeads;
+import duke605.ms.toolheads.api.ToolHeadAPI;
+import duke605.ms.toolheads.api.head.Head;
+import duke605.ms.toolheads.handler.ConfigurationHandler;
+import duke605.ms.toolheads.item.ItemHead;
 
 public class LibItems {
 
     // Items
-    public static Item head;
+    public static Item head; 
 
     /**
      * Loads items

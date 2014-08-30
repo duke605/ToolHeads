@@ -1,7 +1,6 @@
-package duke605.ms.toolheads.api.heads;
+package duke605.ms.toolheads.api.head;
 
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemTool;
 import net.minecraft.util.MathHelper;
 
 public class Head {
