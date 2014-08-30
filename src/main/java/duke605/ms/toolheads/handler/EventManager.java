@@ -1,7 +1,7 @@
 package duke605.ms.toolheads.handler;
 
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import duke605.ms.toolheads.api.ToolHeadAPI;
+import duke605.ms.toolheads.api.ToolHeadsAPI;
 import duke605.ms.toolheads.api.head.Head;
 import duke605.ms.toolheads.api.head.Head.ToolType;
 import duke605.ms.toolheads.util.ToolUtil;
@@ -17,7 +17,7 @@ public class EventManager {
     public void onBreak(PlayerDestroyItemEvent event) {
         String materialName = ToolUtil.getToolMaterial(event.original);
         ToolType type = ToolUtil.getToolType(event.original);
-        Head head = ToolHeadAPI.getHead(type, materialName);
+        Head head = ToolHeadsAPI.getHead(type, materialName);
         EntityLivingBase entity = event.entityLiving;
         int dropChance;
         int rand;

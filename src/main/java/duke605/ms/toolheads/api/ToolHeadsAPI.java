@@ -5,13 +5,13 @@ import duke605.ms.toolheads.api.head.Head.ToolType;
 
 import java.util.HashMap;
 
-public class ToolHeadAPI {
+public class ToolHeadsAPI {
 
     private HashMap<ToolType, HashMap<String, Head>> heads;
     
-    public static final ToolHeadAPI INSTANCE = new ToolHeadAPI();
+    public static final ToolHeadsAPI INSTANCE = new ToolHeadsAPI();
 
-    private ToolHeadAPI() {
+    private ToolHeadsAPI() {
         // Initializing heads
         heads = new HashMap<ToolType, HashMap<String, Head>>();
 

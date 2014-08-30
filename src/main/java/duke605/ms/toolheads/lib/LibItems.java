@@ -5,7 +5,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import cpw.mods.fml.common.registry.GameRegistry;
 import duke605.ms.toolheads.ToolHeads;
-import duke605.ms.toolheads.api.ToolHeadAPI;
+import duke605.ms.toolheads.api.ToolHeadsAPI;
 import duke605.ms.toolheads.api.head.Head;
 import duke605.ms.toolheads.handler.ConfigurationHandler;
 import duke605.ms.toolheads.item.ItemHead;
@@ -33,32 +33,32 @@ public class LibItems {
         GameRegistry.registerItem(head, "toolHead");
 
         // Axes
-        ToolHeadAPI.registerHead(new Head(Head.ToolType.AXE, "EMERALD", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 0)));
-        ToolHeadAPI.registerHead(new Head(Head.ToolType.AXE, "GOLD", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 1)));
-        ToolHeadAPI.registerHead(new Head(Head.ToolType.AXE, "IRON", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 2)));
-        ToolHeadAPI.registerHead(new Head(Head.ToolType.AXE, "STONE", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 3)));
-        ToolHeadAPI.registerHead(new Head(Head.ToolType.AXE, "WOOD", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 4)));
+        ToolHeadsAPI.registerHead(new Head(Head.ToolType.AXE, "EMERALD", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 0)));
+        ToolHeadsAPI.registerHead(new Head(Head.ToolType.AXE, "GOLD", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 1)));
+        ToolHeadsAPI.registerHead(new Head(Head.ToolType.AXE, "IRON", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 2)));
+        ToolHeadsAPI.registerHead(new Head(Head.ToolType.AXE, "STONE", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 3)));
+        ToolHeadsAPI.registerHead(new Head(Head.ToolType.AXE, "WOOD", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 4)));
 
         // Pickaxes
-        ToolHeadAPI.registerHead(new Head(Head.ToolType.PICKAXE, "EMERALD", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 5)));
-        ToolHeadAPI.registerHead(new Head(Head.ToolType.PICKAXE, "GOLD", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 6)));
-        ToolHeadAPI.registerHead(new Head(Head.ToolType.PICKAXE, "IRON", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 7)));
-        ToolHeadAPI.registerHead(new Head(Head.ToolType.PICKAXE, "STONE", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 8)));
-        ToolHeadAPI.registerHead(new Head(Head.ToolType.PICKAXE, "WOOD", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 9)));
+        ToolHeadsAPI.registerHead(new Head(Head.ToolType.PICKAXE, "EMERALD", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 5)));
+        ToolHeadsAPI.registerHead(new Head(Head.ToolType.PICKAXE, "GOLD", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 6)));
+        ToolHeadsAPI.registerHead(new Head(Head.ToolType.PICKAXE, "IRON", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 7)));
+        ToolHeadsAPI.registerHead(new Head(Head.ToolType.PICKAXE, "STONE", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 8)));
+        ToolHeadsAPI.registerHead(new Head(Head.ToolType.PICKAXE, "WOOD", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 9)));
 
         // Hoes
-        ToolHeadAPI.registerHead(new Head(Head.ToolType.HOE, "EMERALD", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 10)));
-        ToolHeadAPI.registerHead(new Head(Head.ToolType.HOE, "GOLD", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 11)));
-        ToolHeadAPI.registerHead(new Head(Head.ToolType.HOE, "IRON", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 12)));
-        ToolHeadAPI.registerHead(new Head(Head.ToolType.HOE, "STONE", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 13)));
-        ToolHeadAPI.registerHead(new Head(Head.ToolType.HOE, "WOOD", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 14)));
+        ToolHeadsAPI.registerHead(new Head(Head.ToolType.HOE, "EMERALD", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 10)));
+        ToolHeadsAPI.registerHead(new Head(Head.ToolType.HOE, "GOLD", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 11)));
+        ToolHeadsAPI.registerHead(new Head(Head.ToolType.HOE, "IRON", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 12)));
+        ToolHeadsAPI.registerHead(new Head(Head.ToolType.HOE, "STONE", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 13)));
+        ToolHeadsAPI.registerHead(new Head(Head.ToolType.HOE, "WOOD", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 14)));
 
         // Shovels
-        ToolHeadAPI.registerHead(new Head(Head.ToolType.SHOVEL, "EMERALD", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 15)));
-        ToolHeadAPI.registerHead(new Head(Head.ToolType.SHOVEL, "GOLD", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 16)));
-        ToolHeadAPI.registerHead(new Head(Head.ToolType.SHOVEL, "IRON", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 17)));
-        ToolHeadAPI.registerHead(new Head(Head.ToolType.SHOVEL, "STONE", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 18)));
-        ToolHeadAPI.registerHead(new Head(Head.ToolType.SHOVEL, "WOOD", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 19)));
+        ToolHeadsAPI.registerHead(new Head(Head.ToolType.SHOVEL, "EMERALD", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 15)));
+        ToolHeadsAPI.registerHead(new Head(Head.ToolType.SHOVEL, "GOLD", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 16)));
+        ToolHeadsAPI.registerHead(new Head(Head.ToolType.SHOVEL, "IRON", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 17)));
+        ToolHeadsAPI.registerHead(new Head(Head.ToolType.SHOVEL, "STONE", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 18)));
+        ToolHeadsAPI.registerHead(new Head(Head.ToolType.SHOVEL, "WOOD", ConfigurationHandler.diamondChance, new ItemStack(head, 1, 19)));
     }
 
     private static void addRecipes() {
